@@ -29,7 +29,7 @@ class Solution:
         if is_match(target_map, window_map):
             return True
 
-        # 4. Slide the window
+        # Slide the window
         for i in range(n1, n2):
             new_char = s2[i]
             old_char = s2[i - n1]
