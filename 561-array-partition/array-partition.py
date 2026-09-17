@@ -1,11 +1,11 @@
 class Solution:
     def arrayPairSum(self, nums: List[int]) -> int:
-        # nums.sort()
-        # # print(nums)
-        # sum = 0
-        # for i in range(0,len(nums),2):
-        #     sum += nums[i]
-        # return sum
+        nums.sort()
+        # print(nums)
+        sum = 0
+        for i in range(0,len(nums),2):
+            sum += nums[i]
+        return sum
 
         # nums.sort()
         # print(nums)
@@ -20,9 +20,4 @@ class Solution:
 
         # return sum
 
-        # nums.sort()
-        # print(nums)
-        # slicing
-        # print(nums[::2])
-        # print(sorted(nums))
-        return (sum(sorted(nums)[::2]))
+        # return (sum(sorted(nums)[::2]))
